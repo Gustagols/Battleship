@@ -1,8 +1,9 @@
-# Jogo-Batalha-Naval
-Jogo Batalha Naval feito em C++
+# Battleship
 
-A diferença entre o arquivo "Jogo Batalha Naval.cpp" e "JogoBatalhaNaval.cpp" é o setlocale.
+Battleship game (C++)
 
-"Jogo Batalha Naval.cpp" --> setlocale(LC_ALL, "") --> funciona no CodeBlocks
+English: "Battleship.cpp" --> runs anywhere
+Portuguese: "BatalhaNaval.cpp" --> runs in Visual Studio
 
-"JogoBatalhaNaval.cpp" --> setlocale(LC_ALL, "pt_BR.UTF-8"); --> funciona no Visual Studio
+In order to run "BatalhaNaval.cpp" in CodeBlocks, change setlocale(LC_ALL, "pt_BR.UTF-8") to setlocale(LC_ALL, "").
+Try onlineGDB to run any of the above.
